@@ -13,6 +13,7 @@
 * git clone https://github.com/stuko/wayd-new-enginemanager.git
 * git clone https://github.com/stuko/wayd-new-configmanager.git
 * git clone https://github.com/stuko/wayd-meta-inf.git
+* git clone https://github.com/stuko/wayd-new-3tyenginemanager.git
 
 --> git clone https://github.com/stuko/XXXXXXXXXXXX.git
 ```
