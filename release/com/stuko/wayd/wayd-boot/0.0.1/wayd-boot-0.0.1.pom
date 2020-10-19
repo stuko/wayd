@@ -18,6 +18,15 @@
 			<name>local repository</name>
 			<url>file://${project.basedir}/lib</url>
 		</repository>
+		<repository>
+			<id>wayd</id>
+			<url>https://github.com/stuko/wayd/tree/master/release</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+
   </repositories> 
  <distributionManagement>   
     <repository>
