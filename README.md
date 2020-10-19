@@ -1,20 +1,20 @@
 # wayd
 
-git clone https://github.com/stuko/wayd.git
-git clone https://github.com/stuko/wayd-boot.git
-git clone https://github.com/stuko/wayd-new-base.git
-git clone https://github.com/stuko/wayd-new-containermanager.git
-git clone https://github.com/stuko/wayd-new-threadmanager.git
-git clone https://github.com/stuko/wayd-new-systemmanager.git
-git clone https://github.com/stuko/wayd-new-profilemanager.git
-git clone https://github.com/stuko/wayd-new-monitormanager.git
-git clone https://github.com/stuko/wayd-new-lockmanager.git
-git clone https://github.com/stuko/wayd-new-gcm.git
-git clone https://github.com/stuko/wayd-new-enginemanager.git
-git clone https://github.com/stuko/wayd-new-configmanager.git
+* git clone https://github.com/stuko/wayd.git
+* git clone https://github.com/stuko/wayd-boot.git
+* git clone https://github.com/stuko/wayd-new-base.git
+* git clone https://github.com/stuko/wayd-new-containermanager.git
+* git clone https://github.com/stuko/wayd-new-threadmanager.git
+* git clone https://github.com/stuko/wayd-new-systemmanager.git
+* git clone https://github.com/stuko/wayd-new-profilemanager.git
+* git clone https://github.com/stuko/wayd-new-monitormanager.git
+* git clone https://github.com/stuko/wayd-new-lockmanager.git
+* git clone https://github.com/stuko/wayd-new-gcm.git
+* git clone https://github.com/stuko/wayd-new-enginemanager.git
+* git clone https://github.com/stuko/wayd-new-configmanager.git
 
 --> git clone https://github.com/stuko/XXXXXXXXXXXX.git
-
+```
 mvn -DaltDeploymentRepository=snapshot::default::file:../wayd/snapshots clean deploy
 or
 mvn clean deploy -DrepositoryId=internal.repo
@@ -32,4 +32,4 @@ mvn clean deploy -DrepositoryId=internal.repo
       <url>file://${project.basedir}/../wayd/snapshots</url>
     </snapshotRepository>
   </distributionManagement>  
-
+```
