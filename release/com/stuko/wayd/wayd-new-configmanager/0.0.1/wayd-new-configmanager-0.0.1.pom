@@ -8,6 +8,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
+		<project.basedir>./</project.basedir>
 		<project.root.target>./target</project.root.target>
 		<project.build.final.target>./target</project.build.final.target>
 		<maven.compiler.source>1.8</maven.compiler.source>

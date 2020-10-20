@@ -17,11 +17,6 @@
 	</properties>
 	<repositories>
 		<repository>
-			<id>sample-repository</id>
-			<name>local repository</name>
-			<url>file://${project.basedir}/lib</url>
-		</repository>
-		<repository>
 			<id>wayd</id>
 			<url>https://github.com/stuko/wayd/tree/master/release</url>
 			<snapshots>
@@ -29,21 +24,25 @@
 				<updatePolicy>always</updatePolicy>
 			</snapshots>
 		</repository>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
 
 	</repositories>
-<distributionManagement>   
-    <repository>
-      <id>internal.repo</id>
-      <name>Project Release</name>
-      <url>file://${project.basedir}/../wayd/release</url>
-    </repository>
-    <snapshotRepository>
-      <uniqueVersion>true</uniqueVersion>
-      <id>snapshot.repo</id>
-      <name>Project Snapshots</name>
-      <url>file://${project.basedir}/../wayd/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>	
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Project Release</name>
+			<url>file://${project.basedir}/../wayd/release</url>
+		</repository>
+		<snapshotRepository>
+			<uniqueVersion>true</uniqueVersion>
+			<id>snapshot.repo</id>
+			<name>Project Snapshots</name>
+			<url>file://${project.basedir}/../wayd/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
@@ -283,18 +282,6 @@
 			<artifactId>commons-math3</artifactId>
 			<version>3.6.1</version>
 		</dependency>
-		<dependency>
-			<groupId>com.nlp</groupId>
-			<artifactId>kkma</artifactId>
-			<version>2.1</version>
-			<!-- <scope>system</scope> -->
-			<!-- <systemPath>${project.basedir}/lib/com/nlp/kkma/2.1/kkma-2.1.jar</systemPath> -->
-		</dependency>
-		<dependency>
-			<groupId>com.voicerss</groupId>
-			<artifactId>tts</artifactId>
-			<version>1.0</version>
-		</dependency>
 		<!-- mvn install:install-file -Dfile=kkma-2.1jar -DgroupId=com.nlp -DartifactId=kkma 
 			-Dversion=2.1 -Dpackaging=jar -DgeneratePom=true -->
 
@@ -341,6 +328,16 @@
 			<artifactId>ehcache</artifactId>
 			<version>3.8.1</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.github.shin285/KOMORAN -->
+		<dependency>
+			<groupId>com.github.shin285</groupId>
+			<artifactId>KOMORAN</artifactId>
+			<version>3.3.2</version>
+		</dependency>
+
+
+
 	</dependencies>
 
 </project>
