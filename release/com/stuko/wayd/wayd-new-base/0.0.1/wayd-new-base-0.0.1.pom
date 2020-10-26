@@ -18,7 +18,7 @@
 	<repositories>
 		<repository>
 			<id>wayd</id>
-			<url>https://github.com/stuko/wayd/tree/master/release</url>
+			<url>https://github.com/stuko/wayd/raw/master/release</url>
 			<snapshots>
 				<enabled>true</enabled>
 				<updatePolicy>always</updatePolicy>
@@ -333,11 +333,8 @@
 		<dependency>
 			<groupId>com.github.shin285</groupId>
 			<artifactId>KOMORAN</artifactId>
-			<version>3.3.2</version>
+			<version>3.3.4</version>
 		</dependency>
-
-
-
 	</dependencies>
 
 </project>
