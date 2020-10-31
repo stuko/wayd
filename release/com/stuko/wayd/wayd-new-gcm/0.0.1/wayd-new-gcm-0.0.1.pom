@@ -23,11 +23,7 @@
 		</repository>
 		<repository>
 			<id>wayd</id>
-<<<<<<< HEAD
 			<url>https://github.com/stuko/wayd/raw/master/release</url>
-=======
-			<url>https://github.com/stuko/wayd/tree/master/release</url>
->>>>>>> 24ad04962e3e2f643fe1c6ff859761fee9570c48
 			<snapshots>
 				<enabled>true</enabled>
 				<updatePolicy>always</updatePolicy>
