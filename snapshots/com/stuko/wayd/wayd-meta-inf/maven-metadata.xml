@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.stuko.wayd</groupId>
+  <artifactId>wayd-meta-inf</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20201019224952</lastUpdated>
+  </versioning>
+</metadata>

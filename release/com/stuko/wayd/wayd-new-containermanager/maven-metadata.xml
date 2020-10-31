@@ -7,6 +7,10 @@
     <versions>
       <version>0.0.1</version>
     </versions>
+<<<<<<< HEAD:release/com/stuko/wayd/wayd-new-containermanager/maven-metadata.xml
     <lastUpdated>20201030231536</lastUpdated>
+=======
+    <lastUpdated>20201018232749</lastUpdated>
+>>>>>>> 24ad04962e3e2f643fe1c6ff859761fee9570c48:snapshots/com/stuko/wayd/wayd-new-containermanager/maven-metadata.xml
   </versioning>
 </metadata>

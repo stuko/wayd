@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.stuko.wayd</groupId>
+  <artifactId>wayd-new-containermanager</artifactId>
+  <versioning>
+    <release>0.0.1</release>
+    <versions>
+      <version>0.0.1</version>
+    </versions>
+<<<<<<< HEAD
+    <lastUpdated>20201021223159</lastUpdated>
+=======
+    <lastUpdated>20201021121747</lastUpdated>
+>>>>>>> 61ed59211753380437c725667a5f91904b7c4d38
+  </versioning>
+</metadata>
