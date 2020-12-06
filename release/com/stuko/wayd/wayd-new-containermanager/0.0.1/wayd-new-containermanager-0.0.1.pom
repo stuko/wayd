@@ -26,19 +26,20 @@
 			</snapshots>
 		</repository>
 	</repositories>
-<distributionManagement>   
-    <repository>
-      <id>internal.repo</id>
-      <name>Project Release</name>
-      <url>file://${project.basedir}/../wayd/release</url>
-    </repository>
-    <snapshotRepository>
-      <uniqueVersion>true</uniqueVersion>
-      <id>snapshot.repo</id>
-      <name>Project Snapshots</name>
-      <url>file://${project.basedir}/../wayd/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>	
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Project Release</name>
+			<url>file://${project.basedir}/../wayd/release</url>
+		</repository>
+		<snapshotRepository>
+			<uniqueVersion>true</uniqueVersion>
+			<id>snapshot.repo</id>
+			<name>Project Snapshots</name>
+			<url>file://${project.basedir}/../wayd/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -159,13 +160,6 @@
 			<groupId>com.stuko.wayd</groupId>
 			<artifactId>wayd-new-base</artifactId>
 			<version>0.0.1</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.kie.modules</groupId>
-			<artifactId>com-fasterxml-jackson</artifactId>
-			<version>6.5.0.Final</version>
-			<type>pom</type>
 		</dependency>
 
 		<dependency>
