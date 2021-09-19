@@ -1,3 +1,6 @@
+# token
+* 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
+
 # wayd
 
 * git clone https://github.com/stuko/wayd.git
