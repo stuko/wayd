@@ -1,5 +1,5 @@
 # token
-* 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
+* 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
 
 # wayd
 
