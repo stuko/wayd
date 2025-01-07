@@ -36,6 +36,6 @@
       <url>file://${project.basedir}/../wayd/snapshots</url>
     </snapshotRepository>
   </distributionManagement>  
-  <build/>
+  <build />
 
 </project>
