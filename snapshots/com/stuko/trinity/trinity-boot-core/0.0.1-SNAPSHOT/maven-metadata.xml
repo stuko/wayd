@@ -3,21 +3,21 @@
   <groupId>com.stuko.trinity</groupId>
   <artifactId>trinity-boot-core</artifactId>
   <versioning>
-    <lastUpdated>20250110030545</lastUpdated>
+    <lastUpdated>20250112091522</lastUpdated>
     <snapshot>
-      <timestamp>20250110.030545</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20250112.091522</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20250110.030545-1</value>
-        <updated>20250110030545</updated>
+        <value>0.0.1-20250112.091522-2</value>
+        <updated>20250112091522</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-20250110.030545-1</value>
-        <updated>20250110030545</updated>
+        <value>0.0.1-20250112.091522-2</value>
+        <updated>20250112091522</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
